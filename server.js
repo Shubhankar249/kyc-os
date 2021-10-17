@@ -61,4 +61,4 @@ io.on('connection', socket => {
        });
    });
 });
-server.listen(process.env.port || 4200);
+server.listen(process.env.PORT || 4200);
